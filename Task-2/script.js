@@ -34,7 +34,8 @@ let birtHDays=document.getElementById('Doo');
         //  !We are Using the  new Date() Method which is Help You define  the Year, time ,day
         // ! How this is working :::: simply we are write new Date(birtHDays.value)
               
-            let YourBirthYear=new Date(birtHDays.value).getFullYear();     
+            let YourBirthYear=new Date(birtHDays.value);
+            console.log(YourBirthYear)    
             
             let curAge=Current-YourBirthYear;
             
