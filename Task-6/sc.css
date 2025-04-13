@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    height: 100vh;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.main{
+   min-height: 300px;
+    width: 300px;
+     background-color: blueviolet;
+     padding: 20px;
+     border-radius: 20px;
+    
+    /* display: flex;
+    align-items: center;
+     justify-content: center; */
+}
+.input-bar{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+input{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+button{
+     cursor: pointer;
+    border: none;
+    padding: 14px;
+    border-radius:15px;
+}
+.task-list{
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+}
+
+input[type=checkbox] {
+    
+    transform: scale(1.5);
+    padding: 10px;
+    cursor: pointer;
+}
+.task-list i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.Hero{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+#task-Container{
+       margin-top: 11px;
+        height: 20vh;
+}

@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    link
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+          
+        
+    <div class="main">
+      <div class="Hero">
+        <div class="No-1">
+          <h5>Degrees:</h5>
+
+          <input
+            type="text"
+            name=""
+            id="in-1"
+            placeholder="Enter  Your Degree..."
+          />
+        </div>
+
+        <div class="No-2">
+          <h5>Type:</h5>
+
+          <select id="conversionType">
+            <option value="Default">Default</option>
+            <option value="cToF">Celsius to Fahrenheit</option>
+            <option value="fToC">Fahrenheit to Celsius</option>
+            
+           
+          </select>
+        </div>
+
+        <button id="con">Covert</button>   
+        <!--  Selecting the Button  -->
+      </div>
+
+      <div id="result">
+        <h3>Result:</h3>
+
+        <p></p>
+      </div>
+
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
