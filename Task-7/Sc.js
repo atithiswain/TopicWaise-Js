@@ -67,7 +67,7 @@ let CartPro = [];
 Btn.forEach(function (elem) {
   elem.addEventListener("click", function () {
     let DataId = elem.getAttribute("data-id");
-    let Product = Products.find(function (ele) {
+    let Product = Products.find(function(ele){
       return ele.Id == DataId;
     });
 
@@ -107,7 +107,7 @@ function showEli(pro) {
   let goblin = "";
      let BodyCart=document.querySelector('.card-body')
   pro.forEach(function (PRL) {
-      
+                                                   
     goblin += `<div class="cart-item">
   <div class="cart-item-image">
     <img src="${PRL.ImageSrc}" alt="Product" />

@@ -15,7 +15,7 @@ Btn.addEventListener("click", function () {
   if (userValue < new Date()) {
     alert("You Enter the past Date");
   } else {
-    let Counter = 1;
+   
 
     init = setInterval(function () {
        let currentDate = new Date();
