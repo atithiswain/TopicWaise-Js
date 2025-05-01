@@ -9,7 +9,7 @@ let NewArr = new Array();
 Button.addEventListener("click", () => {
   // We are the crediting this for check  if any one the user give correctly the value OR not
   if (BabyNumber.value == "" && UserName.value == "") {
-    alert("Pls Bro file the blank of Fuck Up!");
+    alert("Pls Bro file the blank or Fuck Up!");
   } else {
     let ContactUseObj = new Object();
     ContactUseObj.UserNm = UserName.value;
