@@ -18,21 +18,30 @@
       </div>
 
       <div class="weither-dis">
-        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="" />
-        <h4>Clear Sky</h4>
-        <h1></h1>
-        <h2></h2>
+        <img id="wetherImg" src="" alt="" />
+        <h4 id="SkyDetails"></h4>
+        <h1><span id="Deg"></span>C</h1>
+        <h2 id="Name"></h2>
       </div>
-      <div class="footer">
-        <div class="dig">
-          <h1>Humidity</h1>
-          <i class="ri-fire-line"></i>
-        </div>
-        <div class="speed">
-          <h3>Wind Speed</h3>
-          <i class="ri-windy-line"></i>
+      <div class="weather-wrapper">
+        <div class="weather-box">
+          <div class="weather-item">
+            <div class="weather-info">
+              <i class="ri-temp-hot-line icon"></i>
+              <h1><span id="humidity">--</span>%</h1>
+            </div>
+            <h2>Humidity</h2>
+          </div>
+          <div class="weather-item">
+            <div class="weather-info">
+              <i class="ri-windy-line icon"></i>
+              <h1><span id="windspeed">--</span> Km/H</h1>
+            </div>
+            <h2 >Wind Speed</h2>
+          </div>
         </div>
       </div>
+      
     </div>
 
     <script src="Script.js"></script>
