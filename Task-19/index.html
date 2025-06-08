@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Form</h2>
+      <form>
+        <div class="section">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter name" />
+          <h4 id="NameSection"></h4>
+        </div>
+
+        <div class="section">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter email" />
+          <h4 id="EmailSection"></h4>
+        </div>
+
+        <div class="section">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="Enter phone number" />
+          <h4 id="PhoneSection"></h4>
+        </div>
+
+        <div class="section">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <h4 id="PasswordSection"></h4>
+        </div>
+        <div class="section">
+          <label for="confirmPassword">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm password"
+          />
+          <h4 id="confirmPasswordSection"></h4>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="scr.js"></script>
+  </body>
+</html>
